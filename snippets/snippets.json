@@ -1326,19 +1326,18 @@
          "$0"
       ]
    },
-   "Class_template": {
+   "Class_template_MQL4_snippet": {
 		"prefix": "mqltemplate_class",
 		"body": [
 			"//+------------------------------------------------------------------+",
-			"//|                                               ${1:ClassName}.mqh |",
-			"//|                                                  ${2:AuthorName} |",
-			"//|                                                        ${3:link} |",
+			"//|  ${1:ClassName}.mqh ",
+			"//|  ${2:AuthorName} ",
+			"//|  ${3:link} ",
 			"//+------------------------------------------------------------------+",
 			"#property copyright \"${2:AuthorName}\"",
 			"#property link      \"${3:Link}\"",
          "#property version   \"1.00\"",
          "#property strict",
-         "$4",
 			"//+------------------------------------------------------------------+",
          "//|                                                                  |",
          "//+------------------------------------------------------------------+",
@@ -1366,7 +1365,7 @@
          "//|                                                                  |",
          "//+------------------------------------------------------------------+",
 		],
-		"description": "Class template"
+		"description": "Class template for MQL"
 	},
    "Expert_Template": {
       "prefix": "mqltemplate_expert",
